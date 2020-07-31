@@ -1,0 +1,14 @@
+.Header {
+	margin: 0;
+	padding: 5px;
+	background-color: #9b9bcd;
+}
+
+.Header h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Yeseva One', cursive;
+	font-size: 30px;
+	color: #373737;
+}
