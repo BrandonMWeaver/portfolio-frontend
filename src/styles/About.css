@@ -1,4 +1,15 @@
 .About {
-	margin: 0;
+	margin: 5px;
 	padding: 0;
+	background-color: #9b9bcd;
+	border-radius: 3px;
+}
+
+.About p {
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+	font-family: 'Yeseva One', cursive;
+	font-size: 15px;
+	color: #fff;
 }

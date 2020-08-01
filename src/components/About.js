@@ -4,7 +4,9 @@ import '../styles/About.css';
 
 const About = () => {
 	return (
-		<div className="About">TEMPORARY</div>
+		<div className="About">
+			<p>TEMPORARY</p>
+		</div>
 	);
 }
 

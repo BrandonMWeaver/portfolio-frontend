@@ -6,6 +6,7 @@ import Header from './components/Header';
 import NavigationBar from './components/NavigationBar';
 
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <>
             <Header />
             <NavigationBar />
+            <Footer />
             </>
           );
         }} />

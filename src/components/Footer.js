@@ -1,20 +1,20 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import '../styles/NavigationBar.css';
+import '../styles/Footer.css';
 
-const NavigationBar = () => {
+const Footer = () => {
 	const anchors = [
-		{ text: "Home", to: '/' }
+		{ text: "About", to: "/about" }
 	];
 	
 	return (
-		<div className="NavigationBar">
+		<div className="Footer">
 			{anchors.map((anchor, index) => {
 				return <NavLink key={index} to={anchor.to}>{anchor.text}</NavLink>
 			})}
 		</div>
-	);
+	)
 }
 
-export default NavigationBar;
+export default Footer;
