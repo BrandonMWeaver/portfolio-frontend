@@ -2,11 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import About from './components/About';
-import Header from './components/Header';
 import NavigationBar from './components/NavigationBar';
 
 import './App.css';
-import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,9 +13,7 @@ function App() {
         <Route path='/' render={() => {
           return (
             <>
-            <Header />
             <NavigationBar />
-            <Footer />
             </>
           );
         }} />

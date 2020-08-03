@@ -1,17 +1,16 @@
 .NavigationBar {
 	margin: 0;
-	padding: 0 0 5px 0;
+	padding: 5px 0 5px 0;
 	text-align: center;
-	background-color: #9b9bcd;
 }
 
 .NavigationBar a {
 	margin: 0 0 0 15px;
 	padding: 0;
-	font-family: 'Yeseva One', cursive;
-	font-size: 15px;
+	font-family: monospace;
+	font-size: 20px;
 	text-decoration: none;
-	color: #373737;
+	color: #9b9b9b;
 }
 
 .NavigationBar a:first-child {

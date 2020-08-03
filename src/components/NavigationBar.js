@@ -5,7 +5,8 @@ import '../styles/NavigationBar.css';
 
 const NavigationBar = () => {
 	const anchors = [
-		{ text: "Home", to: '/' }
+		{ text: "HOME", to: '/' },
+		{ text: "ABOUT", to: '/about' }
 	];
 	
 	return (

@@ -1,15 +1,19 @@
 .About {
 	margin: 5px;
 	padding: 0;
-	background-color: #9b9bcd;
-	border-radius: 3px;
+	animation: fadeIn ease 0.5s;
 }
 
 .About p {
 	margin: 0;
 	padding: 5px;
 	text-align: center;
-	font-family: 'Yeseva One', cursive;
+	font-family: monospace;
 	font-size: 15px;
-	color: #fff;
+	color: #373737;
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
 }
