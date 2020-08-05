@@ -5,8 +5,32 @@ import About from './components/About';
 import NavigationBar from './components/NavigationBar';
 
 import './App.css';
+import ProjectsContainer from './containers/ProjectsContainer';
 
 function App() {
+  const projects = [
+    {
+      title: "Garage Sale",
+      videoSource: "https://www.youtube.com/watch?v=rKIgAzOZxZE",
+      description: "A brief demonstration of my React/Rails application."
+    },
+    {
+      title: "Garage Sale",
+      videoSource: "https://www.youtube.com/watch?v=rKIgAzOZxZE",
+      description: "A brief demonstration of my React/Rails application."
+    },
+    {
+      title: "Garage Sale",
+      videoSource: "https://www.youtube.com/watch?v=rKIgAzOZxZE",
+      description: "A brief demonstration of my React/Rails application."
+    },
+    {
+      title: "Garage Sale",
+      videoSource: "https://www.youtube.com/watch?v=rKIgAzOZxZE",
+      description: "A brief demonstration of my React/Rails application."
+    }
+  ];
+
   return (
     <div className="App">
       <Router>
@@ -16,6 +40,9 @@ function App() {
             <NavigationBar />
             </>
           );
+        }} />
+        <Route exact path="/projects" render={() => {
+          return <ProjectsContainer projects={projects} />
         }} />
         <Route exact path="/about" render={() => {
           return <About />

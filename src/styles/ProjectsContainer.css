@@ -1,0 +1,11 @@
+.ProjectsContainer {
+	display: block;
+	margin: 0 5px 5px 0;
+	padding: 0;
+	animation: fadeIn ease 0.5s;
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}

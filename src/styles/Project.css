@@ -1,0 +1,26 @@
+.Project {
+	display: inline-block;
+	margin: 5px 0 0 5px;
+	padding: 5px;
+	width: calc(25% - 15px);
+	background-color: #9b9bcd;
+}
+
+.Project h3 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-family: monospace;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.Project iframe {
+	width: 100%;
+}
+
+.Project p {
+	margin: 5px 0 0 0;
+	padding: 0;
+	font-family: monospace;
+	font-size: 15px;
+}

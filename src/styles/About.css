@@ -1,13 +1,13 @@
 .About {
-	margin: 5px;
+	margin: 0 5px;
 	padding: 0;
 	animation: fadeIn ease 0.5s;
 }
 
 .About p {
-	margin: 0;
+	margin: 0 auto;
 	padding: 5px;
-	text-align: center;
+	width: 80%;
 	font-family: monospace;
 	font-size: 15px;
 	color: #373737;
