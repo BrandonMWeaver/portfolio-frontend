@@ -6,7 +6,9 @@ const Project = props => {
 	return (
 		<div className="Project">
 			<h3>{props.project.title}</h3>
-			{/* embed video */}
+			<div className="iframe-container">
+				<iframe allowFullScreen src={props.project.videoSource} />
+			</div>
 			<p>{props.project.description}</p>
 		</div>
 	);

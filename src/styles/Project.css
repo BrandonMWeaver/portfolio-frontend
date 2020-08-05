@@ -1,5 +1,5 @@
 .Project {
-	display: inline-block;
+	float: left;
 	margin: 5px 0 0 5px;
 	padding: 5px;
 	width: calc(25% - 15px);
@@ -14,8 +14,21 @@
 	font-size: 15px;
 }
 
-.Project iframe {
+.Project .iframe-container {
+	position: relative;
 	width: 100%;
+	height: 0;
+	padding-bottom: 51%;
+}
+
+.Project iframe {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	border: none;
 }
 
 .Project p {

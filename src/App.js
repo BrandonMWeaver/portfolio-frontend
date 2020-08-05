@@ -11,22 +11,42 @@ function App() {
   const projects = [
     {
       title: "Garage Sale",
-      videoSource: "https://www.youtube.com/watch?v=rKIgAzOZxZE",
+      videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
       description: "A brief demonstration of my React/Rails application."
     },
     {
       title: "Garage Sale",
-      videoSource: "https://www.youtube.com/watch?v=rKIgAzOZxZE",
+      videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
       description: "A brief demonstration of my React/Rails application."
     },
     {
       title: "Garage Sale",
-      videoSource: "https://www.youtube.com/watch?v=rKIgAzOZxZE",
+      videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
       description: "A brief demonstration of my React/Rails application."
     },
     {
       title: "Garage Sale",
-      videoSource: "https://www.youtube.com/watch?v=rKIgAzOZxZE",
+      videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
+      description: "A brief demonstration of my React/Rails application."
+    },
+    {
+      title: "Garage Sale",
+      videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
+      description: "A brief demonstration of my React/Rails application."
+    },
+    {
+      title: "Garage Sale",
+      videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
+      description: "A brief demonstration of my React/Rails application."
+    },
+    {
+      title: "Garage Sale",
+      videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
+      description: "A brief demonstration of my React/Rails application."
+    },
+    {
+      title: "Garage Sale",
+      videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
       description: "A brief demonstration of my React/Rails application."
     }
   ];
