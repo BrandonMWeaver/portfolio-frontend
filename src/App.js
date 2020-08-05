@@ -12,42 +12,50 @@ function App() {
     {
       title: "Garage Sale",
       videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
-      description: "A brief demonstration of my React/Rails application."
+      description: "A brief demonstration of my React/Rails application.",
+      href: "https://github.com/BrandonMWeaver/garage-sale"
     },
     {
       title: "Garage Sale",
       videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
-      description: "A brief demonstration of my React/Rails application."
+      description: "A brief demonstration of my React/Rails application.",
+      href: "https://github.com/BrandonMWeaver/garage-sale"
     },
     {
       title: "Garage Sale",
       videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
-      description: "A brief demonstration of my React/Rails application."
+      description: "A brief demonstration of my React/Rails application.",
+      href: "https://github.com/BrandonMWeaver/garage-sale"
     },
     {
       title: "Garage Sale",
       videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
-      description: "A brief demonstration of my React/Rails application."
+      description: "A brief demonstration of my React/Rails application.",
+      href: "https://github.com/BrandonMWeaver/garage-sale"
     },
     {
       title: "Garage Sale",
       videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
-      description: "A brief demonstration of my React/Rails application."
+      description: "A brief demonstration of my React/Rails application.",
+      href: "https://github.com/BrandonMWeaver/garage-sale"
     },
     {
       title: "Garage Sale",
       videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
-      description: "A brief demonstration of my React/Rails application."
+      description: "A brief demonstration of my React/Rails application.",
+      href: "https://github.com/BrandonMWeaver/garage-sale"
     },
     {
       title: "Garage Sale",
       videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
-      description: "A brief demonstration of my React/Rails application."
+      description: "A brief demonstration of my React/Rails application.",
+      href: "https://github.com/BrandonMWeaver/garage-sale"
     },
     {
       title: "Garage Sale",
       videoSource: "https://www.youtube.com/embed/rKIgAzOZxZE",
-      description: "A brief demonstration of my React/Rails application."
+      description: "A brief demonstration of my React/Rails application.",
+      href: "https://github.com/BrandonMWeaver/garage-sale"
     }
   ];
 

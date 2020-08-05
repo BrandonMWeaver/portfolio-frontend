@@ -6,6 +6,12 @@
 	background-color: #9b9bcd;
 }
 
+@media screen and (max-width: 1080px) {
+	.Project {
+		width: calc(50% - 15px);
+	}
+}
+
 .Project h3 {
 	margin: 0 0 5px 0;
 	padding: 0;
@@ -36,4 +42,15 @@
 	padding: 0;
 	font-family: monospace;
 	font-size: 15px;
+}
+
+.Project a {
+	display: inline-block;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+.Project a img {
+	margin: 0;
+	padding: 0;
 }

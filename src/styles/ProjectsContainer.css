@@ -1,4 +1,5 @@
 .ProjectsContainer {
+	overflow: auto;
 	display: block;
 	margin: 0 5px 5px 0;
 	padding: 0;
