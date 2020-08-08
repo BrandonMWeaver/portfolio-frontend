@@ -45,12 +45,13 @@
 }
 
 .Project a {
-	display: inline-block;
+	float: left;
 	margin: 5px 0 0 0;
 	padding: 0;
 }
 
 .Project a img {
+	float: left;
 	margin: 0;
 	padding: 0;
 }
